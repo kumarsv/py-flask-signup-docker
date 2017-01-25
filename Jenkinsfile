@@ -1,3 +1,4 @@
+#!groovy
 node("docker") {
     docker.withRegistry('<<your-docker-registry>>', '<<your-docker-registry-credentials-id>>') {
     
